@@ -1,0 +1,88 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+    justify-items: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:transparent;
+    color: rgb(236, 231, 231);
+    height: 80px;
+    display: flex;
+    align-items: normal;
+    padding: 0 40px;
+
+  }
+  
+  /* Background video styles */
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-top: 10px;
+  }
+  
+  section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .facts {
+    background-color: rgba(94, 90, 90, 0.8);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .fact {
+    margin-bottom: 30px;
+  }
+  
+  .fact h3 {
+    margin-bottom: 10px;
+  }
+  
+  .fact p {
+    line-height: 1.6;
+  }
+  .fact1 h1{
+    text-align: center;
+  }
+  footer {
+    position: relative;
+    z-index: 1;
+  }
